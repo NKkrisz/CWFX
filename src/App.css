@@ -1,0 +1,17 @@
+#controls{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.value{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

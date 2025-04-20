@@ -5,20 +5,12 @@
   font-family: monospace;
 }
 
-body{
+#root{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100vw;
   height: 100vh;
 }
-
-/* #controls{
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-} */
