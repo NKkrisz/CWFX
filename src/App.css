@@ -1,13 +1,26 @@
-#controls{
-    background-color: black;
+h1{
+    letter-spacing: 0.75rem;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
     color: white;
+}
+
+#hideButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#controls{
+    box-shadow: 1px 1px 1px 1px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    border-radius: 15px;
 }
 
 .value{
